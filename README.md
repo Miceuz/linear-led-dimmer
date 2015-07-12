@@ -5,6 +5,8 @@ A linear dimmer for 6W - 12W LED pannels.
 
 This dimmer has to burn some power in order to dimm leds for custom made LED pannel used in cinema settings. We need to resort to crude linear dimming in order to avoid any kind of flicker on camera.
 
+![](https://raw.githubusercontent.com/Miceuz/linear-led-dimmer/master/linear-dimmer.sch.svg)
+
 More info and eye candy here:
 
 * ![Led dimmer on set](http://blog.technariumas.lt/post/122237647061/led-dimmer-on-set)
