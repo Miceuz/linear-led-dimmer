@@ -1,0 +1,120 @@
+Circuit: * Z:\home\miceuz\Xaltura\linear-dimmer\Draft2.asc
+
+Warning: Multiple definitions of model "rfn30ts6d" Type: Diode
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+vernier = 0.5
+vernier = 0.25
+Gmin = 6.05449e-008
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+Gmin = 5.73554e-008
+vernier = 0.0416667
+vernier = 0.0555555
+Gmin = 5.16216e-008
+vernier = 0.074074
+Gmin = 4.37579e-008
+vernier = 0.0987653
+vernier = 0.131687
+Gmin = 3.32069e-008
+vernier = 0.175583
+vernier = 0.23411
+Gmin = 2.14658e-008
+vernier = 0.312147
+Gmin = 1.08927e-008
+vernier = 0.416196
+vernier = 0.554928
+Gmin = 3.57701e-009
+vernier = 0.739903
+vernier = 0.986537
+Gmin = 6.41124e-010
+vernier = 1
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 1.69889e-010
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 1.69848e-010
+vernier = 0.000651042
+vernier = 0.000868055
+Gmin = 1.69583e-010
+vernier = 0.00115741
+Gmin = 1.69154e-010
+vernier = 0.00154321
+vernier = 0.00205761
+Gmin = 1.68454e-010
+vernier = 0.00274348
+vernier = 0.00365797
+Gmin = 1.67351e-010
+vernier = 0.0048773
+Gmin = 1.65576e-010
+vernier = 0.00650306
+vernier = 0.00867074
+Gmin = 1.6271e-010
+vernier = 0.011561
+vernier = 0.0154146
+Gmin = 1.58271e-010
+vernier = 0.0205529
+Gmin = 1.51329e-010
+vernier = 0.0274038
+vernier = 0.0365384
+Gmin = 1.40623e-010
+vernier = 0.0487178
+vernier = 0.0649571
+Gmin = 1.25219e-010
+vernier = 0.0866095
+Gmin = 1.03794e-010
+vernier = 0.115479
+vernier = 0.153972
+Gmin = 7.6471e-011
+vernier = 0.205296
+vernier = 0.273728
+Gmin = 4.73281e-011
+vernier = 0.364971
+Gmin = 2.19673e-011
+vernier = 0.486628
+vernier = 0.648837
+Gmin = 6.43936e-012
+vernier = 0.865116
+vernier = 1
+Gmin = 1.01363e-012
+Gmin = 1.08838e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+
+Date: Thu Aug 27 11:42:39 2015
+Total elapsed time: 0.674 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 32207
+traniter = 29335
+tranpoints = 6631
+accept = 5035
+rejected = 1596
+matrix size = 26
+fillins = 25
+solver = Normal
+Matrix Compiler1: 2,38 KB object code size  0.8/0.5/[0.4]
+Matrix Compiler2: off  [0.6]/0.7/1.0
+
+
