@@ -468,8 +468,6 @@ Wire Wire Line
 	8900 5450 8900 4950
 Connection ~ 8900 5450
 Wire Wire Line
-	8900 5750 9750 5750
-Wire Wire Line
 	7450 4050 7700 4050
 Wire Wire Line
 	7700 4050 7700 4350
@@ -734,9 +732,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 5450 9200 5450
 Wire Wire Line
-	9500 5450 9500 4400
-Wire Wire Line
-	8900 4400 9750 4400
+	9500 4400 9500 5450
 Connection ~ 8900 4400
 Connection ~ 7800 2400
 $Comp
@@ -770,18 +766,24 @@ Wire Notes Line
 $Comp
 L R R13
 U 1 1 562B7842
-P 9750 4800
-F 0 "R13" V 9830 4800 50  0000 C CNN
-F 1 "2k" V 9750 4800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 9680 4800 30  0001 C CNN
-F 3 "" H 9750 4800 30  0000 C CNN
-	1    9750 4800
+P 8600 4150
+F 0 "R13" V 8680 4150 50  0000 C CNN
+F 1 "2k" V 8600 4150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8530 4150 30  0001 C CNN
+F 3 "" H 8600 4150 30  0000 C CNN
+	1    8600 4150
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	9750 4400 9750 4650
 Connection ~ 9500 4400
-Wire Wire Line
-	9750 5750 9750 4950
 Connection ~ 9500 5750
+Wire Wire Line
+	8900 5750 9500 5750
+Wire Wire Line
+	8600 4400 9500 4400
+Wire Wire Line
+	8600 4300 8600 4400
+Wire Wire Line
+	8600 4000 8600 3950
+Wire Wire Line
+	8600 3950 8900 3950
 $EndSCHEMATC
