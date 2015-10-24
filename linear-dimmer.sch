@@ -468,7 +468,7 @@ Wire Wire Line
 	8900 5450 8900 4950
 Connection ~ 8900 5450
 Wire Wire Line
-	8900 5750 9500 5750
+	8900 5750 9750 5750
 Wire Wire Line
 	7450 4050 7700 4050
 Wire Wire Line
@@ -688,9 +688,9 @@ Text Notes 6600 1600 0    60   ~ 0
 Wire Notes Line
 	5300 1250 5300 3500
 Wire Notes Line
-	9200 3500 5300 3500
+	5300 3500 9200 3500
 Wire Notes Line
-	9200 1250 9200 3500
+	9200 3500 9200 1250
 Text Notes 5350 900  0    60   ~ 0
 Battery low detector. The lowest we go is 11V.
 $Comp
@@ -736,7 +736,7 @@ Wire Wire Line
 Wire Wire Line
 	9500 5450 9500 4400
 Wire Wire Line
-	9500 4400 8900 4400
+	8900 4400 9750 4400
 Connection ~ 8900 4400
 Connection ~ 7800 2400
 $Comp
@@ -766,5 +766,22 @@ Connection ~ 7400 2400
 Wire Wire Line
 	7400 1450 7400 2400
 Wire Notes Line
-	5300 1250 9200 1250
+	9200 1250 5300 1250
+$Comp
+L R R13
+U 1 1 562B7842
+P 9750 4800
+F 0 "R13" V 9830 4800 50  0000 C CNN
+F 1 "2k" V 9750 4800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 9680 4800 30  0001 C CNN
+F 3 "" H 9750 4800 30  0000 C CNN
+	1    9750 4800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 4400 9750 4650
+Connection ~ 9500 4400
+Wire Wire Line
+	9750 5750 9750 4950
+Connection ~ 9500 5750
 $EndSCHEMATC
