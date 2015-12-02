@@ -1,0 +1,16 @@
+* Sukurta kino operatoriaus
+* Labai aukšta spalvinė kokybė
+* Funkcionalus dizainas, 10mm storio, pragalvotas tvirtinimas.
+* Su gridu.
+
+
+
+
+
+ * kur pozicionuoti kitų šviestuvų atžvilgiu?
+ * pro pro yra sunkiau nei kitur
+ * gasdina LiIon baterija, pirščiukai paprasčiau
+ * Kiek laiko
+ * Dydis
+ * Svoris
+
