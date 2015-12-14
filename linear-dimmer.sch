@@ -734,7 +734,6 @@ Wire Wire Line
 Wire Wire Line
 	9500 4400 9500 5450
 Connection ~ 8900 4400
-Connection ~ 7800 2400
 $Comp
 L +5V #PWR024
 U 1 1 56292244
@@ -747,7 +746,7 @@ F 3 "" H 8000 1950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7800 2400 7800 2100
+	7800 2100 7800 2100
 Wire Wire Line
 	8000 1950 8000 2100
 Wire Wire Line
@@ -786,4 +785,18 @@ Wire Wire Line
 	8600 4000 8600 3950
 Wire Wire Line
 	8600 3950 8900 3950
+$Comp
+L R R?
+U 1 1 566F30FA
+P 7650 2100
+F 0 "R?" V 7730 2100 50  0000 C CNN
+F 1 "220" V 7650 2100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7580 2100 30  0001 C CNN
+F 3 "" H 7650 2100 30  0000 C CNN
+	1    7650 2100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7500 2400 7500 2100
+Connection ~ 7500 2400
 $EndSCHEMATC
