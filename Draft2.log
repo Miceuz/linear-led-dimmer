@@ -100,8 +100,8 @@ Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
 
-Date: Thu Aug 27 11:42:39 2015
-Total elapsed time: 0.674 seconds.
+Date: Tue Dec 29 15:36:33 2015
+Total elapsed time: 0.715 seconds.
 
 tnom = 27
 temp = 27
@@ -114,7 +114,7 @@ rejected = 1596
 matrix size = 26
 fillins = 25
 solver = Normal
-Matrix Compiler1: 2,38 KB object code size  0.8/0.5/[0.4]
-Matrix Compiler2: off  [0.6]/0.7/1.0
+Matrix Compiler1: 2,38 KB object code size  0.9/0.5/[0.3]
+Matrix Compiler2: off  [0.5]/0.6/0.6
 
 
